@@ -17,7 +17,7 @@ public class JDBCUtil {
 			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
 			// deprecated
 //			DriverManager.registerDriver(new com.mysql.jdbc.Driver()); 
-			String url = "jdbc:mySQL://localhost:3306/ontap";
+			String url = "jdbc:mySQL://localhost:3306/nhasach";
 			String username = "root";
 			String password = "";
 

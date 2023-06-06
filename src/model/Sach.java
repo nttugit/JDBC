@@ -49,4 +49,10 @@ public class Sach {
 	private String tenSach;
 	private double giaBan;
 	private int namXuatBan;
+
+	@Override
+	public String toString() {
+		return "Sach [id=" + id + ", tenSach=" + tenSach + ", giaBan=" + giaBan + ", namXuatBan=" + namXuatBan + "]";
+	}
+
 }

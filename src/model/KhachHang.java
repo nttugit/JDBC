@@ -16,6 +16,13 @@ public class KhachHang {
 		this.diaChi = diaChi;
 	}
 
+	public KhachHang(String hoVaTen, Date ngaySinh, String diaChi) {
+		super();
+		this.hoVaTen = hoVaTen;
+		this.ngaySinh = ngaySinh;
+		this.diaChi = diaChi;
+	}
+
 	public KhachHang() {
 		super();
 	}
@@ -50,6 +57,11 @@ public class KhachHang {
 
 	public void setDiaChi(String diaChi) {
 		this.diaChi = diaChi;
+	}
+
+	@Override
+	public String toString() {
+		return "KhachHang [id=" + id + ", hoVaTen=" + hoVaTen + ", ngaySinh=" + ngaySinh + ", diaChi=" + diaChi + "]";
 	}
 
 }

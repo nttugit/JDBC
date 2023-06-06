@@ -13,6 +13,8 @@ public interface DAOInterface<T> {
 
 	public T selectById(T t);
 
+	public T selectById(String t);
+
 	public ArrayList<T> selectByCondition(String condition);
 
 }
